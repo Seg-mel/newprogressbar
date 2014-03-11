@@ -3,15 +3,17 @@ New Kivy ProgressBar widget
 
 Standart widget
 
-<img src="https://raw.github.com/Seg-mel/newprogressbar/blob/master/images/screenshot1.png" />
+<img src="https://raw.github.com/Seg-mel/newprogressbar/master/images/screenshot1.png" width='451px;'/>
 
 Widget with spacing between widget elements
 
-<img src="https://github.com/Seg-mel/newprogressbar/blob/master/images/screenshot2.png" />
+<img src="https://raw.github.com/Seg-mel/newprogressbar/master/images/screenshot2.png" width='451px;'/>
 
 Custom widget
 
-<img src="https://github.com/Seg-mel/newprogressbar/blob/master/images/screenshot3.png" />
+<img src="https://raw.github.com/Seg-mel/newprogressbar/master/images/screenshot3.png" width='451px;'/>
+
+####For example, run the file progressbar_test.py
 
 This module includes following classes:
  - MyProgressBar
