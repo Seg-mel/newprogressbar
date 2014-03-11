@@ -1,16 +1,13 @@
-newprogressbar
-==============
-
 New Kivy ProgressBar widget
+===========================
 
 
-
- This module includes following classes:
-  - MyProgressBar
-  - ProgressLine
-  - BorderLine
+This module includes following classes:
+ - MyProgressBar
+ - ProgressLine
+ - BorderLine
  
- New methods for this ProgressBar:
+New methods for this ProgressBar:
  
     add_value(value=1)
         Add/subtract value to line bar. 
