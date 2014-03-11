@@ -58,7 +58,7 @@ New methods for this ProgressBar:
         Set border color.
         border = 'start'|'finish'
         color = hex color
-        Example: set_border_color(border='start', color='111222')
+        Example: set_border_color(border='start', color='#111222')
 
     set_color(hex_color)
         Set line color
