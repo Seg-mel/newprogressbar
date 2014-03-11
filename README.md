@@ -3,7 +3,7 @@ New Kivy ProgressBar widget
 
 Standart widget
 
-<img src="https://github.com/Seg-mel/newprogressbar/blob/master/images/screenshot1.png" />
+<img src="https://raw.github.com/Seg-mel/newprogressbar/blob/master/images/screenshot1.png" />
 
 Widget with spacing between widget elements
 
