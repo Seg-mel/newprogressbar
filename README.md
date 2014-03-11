@@ -1,6 +1,17 @@
 New Kivy ProgressBar widget
 ===========================
 
+Standart widget
+
+<img src="https://github.com/Seg-mel/newprogressbar/blob/master/images/screenshot1.png" />
+
+Widget with spacing between widget elements
+
+<img src="https://github.com/Seg-mel/newprogressbar/blob/master/images/screenshot2.png" />
+
+Custom widget
+
+<img src="https://github.com/Seg-mel/newprogressbar/blob/master/images/screenshot3.png" />
 
 This module includes following classes:
  - MyProgressBar
