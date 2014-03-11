@@ -1,10 +1,6 @@
 newprogressbar
 ==============
 
-New Kivy ProgressBar
-newprogressbar
-==============
-
 New Kivy ProgressBar widget
 
 
