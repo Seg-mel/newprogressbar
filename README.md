@@ -22,25 +22,25 @@ This module includes following classes:
  
 Methods defined here:
     
-    add_value(self, value=1)
+    add_value(value=1)
         Add/subtract value to line bar. 
         Before setting value, you need to set min and max.
         value type: float
     
-    add_value_percent(self, value=1)
+    add_value_percent(value=1)
         Add/subtract percent value to line bar.
         Not obligatory set min and max.
         value type: float
     
-    convert_to_percent(self, value)
+    convert_to_percent(value)
         Convert value to percent.
         value type: float
     
-    convert_to_value(self, percent_value)
+    convert_to_value(percent_value)
         Convert percent to value.
         value type: float
     
-    redraw_widget(self, *args)
+    redraw_widget(*args)
         Method of redraw this widget
     
 Data descriptors defined here:
