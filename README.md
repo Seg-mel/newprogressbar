@@ -32,14 +32,6 @@ Methods defined here:
         Not obligatory set min and max.
         value type: float
     
-    convert_to_percent(value)
-        Convert value to percent.
-        value type: float
-    
-    convert_to_value(percent_value)
-        Convert percent to value.
-        value type: float
-    
     redraw_widget(*args)
         Method of redraw this widget
     
