@@ -80,7 +80,7 @@ class NewProgressBar(BoxLayout):
     @bar_value.setter
     def bar_value(self, value):
         if self.min<=value<=self.max:
-            self.bar_value_percent = self.convert_to_percent(value)
+            self.bar_value_percent = self._convert_to_percent(value)
         else:
             print 'ERROR: value < min OR value > max. Try Again.'
 
@@ -96,7 +96,7 @@ class NewProgressBar(BoxLayout):
     @bar_value_percent.setter
     def bar_value_percent(self, value):
         if (value >= 0) and (value <= 100):
-            self.line_bar.bar_value = self.convert_to_value(value)
+            self.line_bar.bar_value = self._convert_to_value(value)
             self.line_bar.bar_value_percent = value
             self.line_bar.redraw_widget()
         else:
@@ -196,7 +196,7 @@ class NewProgressBar(BoxLayout):
         Before setting value, you need to set min and max.
         value type: float
         """
-        self.add_value_percent(self.convert_to_percent(value))
+        self.add_value_percent(self._convert_to_percent(value))
 
     def add_value_percent(self, value=1):
         """ 
@@ -213,11 +213,11 @@ class NewProgressBar(BoxLayout):
             self.line_bar.bar_value = self.max
         else:
             self.line_bar.bar_value_percent+=value
-            self.line_bar.bar_value = self.convert_to_value(
+            self.line_bar.bar_value = self._convert_to_value(
                                                 self.line_bar.bar_value_percent)
         self.line_bar.redraw_widget()
 
-    def convert_to_percent(self, value):
+    def _convert_to_percent(self, value):
         """ 
         Convert value to percent.
         value type: float
@@ -228,7 +228,7 @@ class NewProgressBar(BoxLayout):
         percent_value = 100*value/float(full_length)
         return percent_value
 
-    def convert_to_value(self, percent_value):
+    def _convert_to_value(self, percent_value):
         """
         Convert percent to value.
         value type: float
