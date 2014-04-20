@@ -12,10 +12,11 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.label import Label
 from kivy.graphics import Color, Rectangle, Line
 from kivy.utils import get_color_from_hex
+from os.path import join, dirname, abspath
 
 
 
-Builder.load_file('./progressbar.kv')
+Builder.load_file(join(dirname(abspath(__file__)),'./progressbar.kv'))
 
 
 
